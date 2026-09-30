@@ -1,0 +1,10 @@
+{
+  "description": "Connects volunteers with NGOs by providing a platform to explore available opportunities, fostering social engagement and community support.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
