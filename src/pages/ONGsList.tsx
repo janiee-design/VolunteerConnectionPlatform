@@ -223,9 +223,7 @@ export default function ONGsList({ areaFilter, onNavigate }: Props) {
                       <span style={{ fontFamily: 'Nunito, sans-serif', fontSize: '13px', color: '#888', display: 'flex', alignItems: 'center', gap: '4px' }}>
                         📍 {ong.city}, {ong.state}
                       </span>
-                      <span style={{ fontFamily: 'Nunito, sans-serif', fontSize: '13px', color: '#888', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                        🙋 {ong.volunteerCount} voluntários
-                      </span>
+                      <span style={{ fontFamily: 'Nunito, sans-serif', fontSize: '13px', color: '#888', display: 'flex', alignItems: 'center', gap: '4px' }}></span>
                     </div>
                     <p style={{ fontFamily: 'Nunito, sans-serif', fontSize: '14px', color: '#555', lineHeight: 1.6, marginBottom: '16px', flex: 1, display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
                       {ong.description}

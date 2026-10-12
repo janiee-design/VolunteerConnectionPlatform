@@ -61,7 +61,7 @@ export default function Footer() {
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
               <span>📍</span>
-              <span>São Paulo, SP — Brasil</span>
+              <span>Santa Catarina, SC — Brasil</span>
             </div>
           </div>
         </div>
@@ -76,7 +76,7 @@ export default function Footer() {
           color: 'rgba(255,255,255,0.4)',
         }}
       >
-        © 2025 Abraço Coletivo · Projeto de Conclusão de Curso · Desenvolvido com 💛 por Jane
+        © 2025 Abraço Coletivo · Projeto de Conclusão de Curso · Desenvolvido por Abraço Coletivo Team
       </div>
     </footer>
   );

@@ -66,7 +66,7 @@ export default function Home({ onNavigate, user }: Props) {
                 fontFamily: 'Nunito, sans-serif',
               }}
             >
-              O Abraço Coletivo conecta voluntários apaixonados com ONGs que precisam de ajuda.
+              O Abraço Coletivo conecta voluntários com ONGs que precisam de ajuda.
               Encontre sua área de atuação e comece a fazer a diferença hoje.
             </p>
 
@@ -94,8 +94,7 @@ export default function Home({ onNavigate, user }: Props) {
             <div style={{ display: 'flex', gap: '32px', marginTop: '48px', flexWrap: 'wrap' }}>
               {[
                 { n: '8+', label: 'Áreas de atuação' },
-                { n: '44+', label: 'ONGs cadastradas' },
-                { n: '300+', label: 'Voluntários ativos' },
+                { n: '10+', label: 'ONGs cadastradas' },
               ].map(({ n, label }) => (
                 <div key={label}>
                   <div style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 800, fontSize: '28px', color: '#F8B400' }}>{n}</div>

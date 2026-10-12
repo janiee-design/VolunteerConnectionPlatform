@@ -38,7 +38,7 @@ export default function Login({ onLogin, onNavigate }: Props) {
 
   return (
     <main style={{ minHeight: 'calc(100vh - 68px)', backgroundColor: '#F5F0E8', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '40px 20px' }}>
-      <div className="animate-fade-in" style={{ width: '100%', maxWidth: '460px' }}>
+        <div className="animate-fade-in" style={{ width: '100%', maxWidth: '460px' }}>
         {/* Card */}
         <div style={{ backgroundColor: '#fff', borderRadius: '24px', padding: 'clamp(32px, 6vw, 48px)', boxShadow: '0 8px 40px rgba(28,26,62,0.12)' }}>
           {/* Logo & título */}
